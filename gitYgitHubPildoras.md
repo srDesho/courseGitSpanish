@@ -163,6 +163,8 @@ luego de escribirlo y presionar enter nos deberá salir.
 ## 4. Curso Git. Clonación y tags
 ## 4.1 Editar desde GitHub
 
+En el código en GitHub tenemos en la parte superior derecha un lápiz, lo clickeamos, editamos los que queremos y luego bajamos hasta abajo toda la página y le damos en guardar commits (Commit changes).
+
 ## 4.2 Crear Tags
 
 ## 4.3 Clonación de repositorio en local
