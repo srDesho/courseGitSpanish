@@ -108,7 +108,6 @@ Luego de agregarlo nos mostrará la letra en color verde haciendo referencia que
     370c797 (HEAD -> master) agregando título, primer parrafo
     4d18d99 Comienzo del proyecto
 
-
 ### Para volver el archivo a un respaldo anterior que queremos, o sea restaurar un archivo
 
 Escribimos el siguiente comando "git reset --hard" con el código de la imágen donde queremos restaurar.
@@ -128,7 +127,7 @@ Escribimos el siguiente comando "git reset --hard" con el código de la imágen 
     git commit -am "nombre que querramos"
 
 ### Abrir editor de texto en Git
-    
+
     git commit --amend
 
 ### Modificar la descripción de un repositorio guardado.
@@ -140,4 +139,23 @@ Tenemos que ingresar al editor de texto en mi caso instalé el VSCode como edito
 luegos de escribir el comando nos abrirá un archivo en VSC y ahí cambiamos el título, guardamos, lo cerramos y listo automáticamente se verá en la terminal de comandos de Git.
 
 ## 3.2 Subir repositorio a GitHub
+
+- Debemos crearnos una cuenta en la web GitHub
+- Crear un repositorio en GitHub
+- copiamos el comando que nos da gitHub:
+
+    …or push an existing repository from the command line
+    git remote add origin https://github.com/srDesho/cursoGit.git  <--copiamos éste a la consola de GIT local
+    git branch -M main
+    git push -u origin main
+
+- Una vez copiado -> git remote add origin https://github.com/srDesho/cursoGit.git
+lo pegamos en la consola de Git y presionamos enter.
+
+- Luego si es la primera vez nos pedirá nuestro usuario y contraseña.
+- Sino nos pide usuario y contraseña, escribimos el siguiente código :
+
+    git push origin master
+
+luego de escribirlo y presionar enter nos deberá salir.
 
