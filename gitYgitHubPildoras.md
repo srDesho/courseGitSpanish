@@ -75,7 +75,7 @@ Nos mostrará un mensaje así:
 
     fatal: unable to auto-detect email address (got 'Maribel@DESKTOP-3I2V7LF.(none)')
 
-No pide un correo electrónico y un nombre de usuario, lo escribimos de tal manera que nos está indicando.
+Nos pide un correo electrónico y un nombre de usuario, lo escribimos de tal manera que nos está indicando.
 
     git config --global user.email "you@example.com"
     git config --global user.name "Your Name"
@@ -139,23 +139,3 @@ Tenemos que ingresar al editor de texto en mi caso instalé el VSCode como edito
 luegos de escribir el comando nos abrirá un archivo en VSC y ahí cambiamos el título, guardamos, lo cerramos y listo automáticamente se verá en la terminal de comandos de Git.
 
 ## 3.2 Subir repositorio a GitHub
-
-- Debemos crearnos una cuenta en la web GitHub
-- Crear un repositorio en GitHub
-- copiamos el comando que nos da gitHub:
-
-    …or push an existing repository from the command line
-    git remote add origin https://github.com/srDesho/cursoGit.git  <--copiamos éste a la consola de GIT local
-    git branch -M main
-    git push -u origin main
-
-- Una vez copiado -> git remote add origin https://github.com/srDesho/cursoGit.git
-lo pegamos en la consola de Git y presionamos enter.
-
-- Luego si es la primera vez nos pedirá nuestro usuario y contraseña.
-- Sino nos pide usuario y contraseña, escribimos el siguiente código :
-
-    git push origin master
-
-luego de escribirlo y presionar enter nos deberá salir.
-
